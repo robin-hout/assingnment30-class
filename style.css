@@ -1,0 +1,85 @@
+nav{
+    margin-top: 12px;
+}
+nav a{
+    color: #8b8b8b;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .4s;
+}
+nav a:hover{
+    color: #fc6f1d;
+}
+.active{
+    color:  #000 !important;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border: 3px solid #fc6f1d;
+    color: #fc6f1d;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: -3px;
+}
+.btn {
+    border-color: #fc6f1d !important;
+    color: #fc6f1d !important;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn:hover{
+    background: #fc6f1d !important;
+    color: #fff !important;
+}
+.banner{
+    background: url(./img/ia_200000012.jpg), rgba(0,0,0, .5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 200px 0px;
+    color: #fff;
+}
+.banner h1{
+ font-weight: 600;
+}
+.about{
+    background: #f7f9ff;
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #000;
+    font-weight: 300;
+}
+.card{
+     border: none;
+     background: #fff;
+     box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #e5f3fc;
+    
+}   
+.img-fluid{
+    max-width: 130% !important;
+}
+.card-body{
+    padding-left: 30px !important;
+}
+.number{
+    background: #dfe6fc;
+}
+.number strong{
+    font-size: 40px;
+    font-weight: 700;
+}
+.number p{
+    color: #8b8b8b;
+    font-weight: 600;
+}
+.tt img{
+    max-width: 100%;
+}
